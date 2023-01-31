@@ -1,0 +1,33 @@
+body {
+	background-color: black;
+}
+#title {
+	font-family: Adobe Jenson Pro, serif;
+	font-size: 90px;
+	background-color: black;
+	color: white;
+	line-height: 95px;
+}
+
+#pub-info{
+	font-family: Adobe Jenson Pro, serif;
+	font-size: 20px;
+	color: white;
+	text-align: right;
+}
+p {
+	font-family: SchoolBook, serif;
+	font-size: 20px;
+	line-height: 28px;
+	text-align: justify;
+	color: white;
+	letter-spacing: 1px;
+}
+#indent-quote{
+	font-family: SchoolBook, serif;
+	font-size: 20px;
+	line-height: 28px;
+	text-align: justify;
+	color: white;
+	letter-spacing: 8px;
+}

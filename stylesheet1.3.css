@@ -1,0 +1,23 @@
+body {
+	background-color: lavender;
+}
+
+#title {
+	font-family: Adobe Jenson Pro, serif;
+	font-size: 150px;
+	line-height: 155px;
+}
+
+#pub-info{
+	font-family: Adobe Jenson Pro, serif;
+	font-size: 20px;
+	text-align: right;
+
+}
+p {
+	font-family: Big Caslon, serif;
+	font-size: 24px;
+	line-height: 33px;
+	text-align: justify;
+	letter-spacing: 1px;
+}
