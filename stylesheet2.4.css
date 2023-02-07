@@ -1,0 +1,98 @@
+#wrapper{
+  position: relative;
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.item{
+  width: 25%;
+  height: 50%;
+  padding: 4%;
+  font-family: Adobe Jenson Pro, serif;
+  font-size: 20px;
+  line-height: 28px;
+  color: whitesmoke;
+}
+
+.section2{
+  display: flex;
+    justify-content: center;
+    align-content: stretch;
+    align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 4%;
+  max-width: 600px;
+}
+
+.item2{
+  font-family: Adobe Jenson Pro, serif;
+  font-size: 20px;
+  line-height: 28px;
+  color: whitesmoke;
+  padding: 4%;
+}
+
+.item2quote{
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: 26px;
+  line-height: 30px;
+  color: whitesmoke;
+  right: 30px;
+  min-width: 350px;
+  max-width: 500px;
+}
+h2{
+  font-family: 'UnifrakturMaguntia', cursive;
+  color: whitesmoke;
+  font-size: 100px;
+  padding: 1%;
+  align-content: flex-start;
+}
+h3{
+  font-family: 'Passion One', cursive;
+  color: whitesmoke;
+  font-size: 40px;
+  font-weight: 400;
+}
+#title-info{
+  display: flex;
+  align-items: flex-start;
+}
+a:link{
+  color: black;
+  text-decoration: none;
+}
+a:visited{
+  text-decoration: none;
+  color: black;
+}
+.buttons{
+  position: fixed;
+  left: 3vw;
+  top: 3vh;
+  font-family: 'Passion One', cursive;
+  color: black;
+  font-size: 40px;
+  font-weight: 400;
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  padding: 2%;
+  max-width: 300px;
+  align-content: space-around;
+}
+.background-images{
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -100;
+}

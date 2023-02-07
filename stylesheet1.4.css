@@ -1,0 +1,147 @@
+body{
+	background-color: lightgoldenrodyellow;
+}
+
+h1{
+	font-family: 'Passion One', cursive;
+	font-size: 90px;
+}
+h2{
+	font-family: 'UnifrakturMaguntia', cursive;
+	font-size: 80px;
+	line-height: 5px;
+}
+a:link{
+	color:royalblue;
+	text-decoration: none;
+}
+a:visited{
+	color: #b28aff;
+	text-decoration: none;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	position: relative;
+	left: 6em;
+}
+
+.item{
+	font-family: Adobe Jenson Pro, serif;
+	line-height: 19px;
+	padding: 2%;
+	max-width: 450px;
+	min-width: 200px;
+	flex: 1 0 250px;
+}
+
+#candle-holder{
+	height: 20%;
+	position: fixed;
+	left: 35vw;
+	top: 20vh;
+}
+#cross-necklace{
+	height: 20%;
+	position: fixed;
+	left: 25vw;
+	top: 65vh;
+}
+#napkins{
+	height: 20%;
+	position: absolute;
+	left: 36vw;
+	top: 65vh;
+}
+#hood{
+	height: 25%;
+	position: absolute;
+	left: 230vw;
+	top: 140vh;
+}
+#corset{
+	height: 20%;
+	position: absolute;
+	left: 25vw;
+	top: 220vh;
+}
+#rope-ring{
+	height: 20%;
+	position: absolute;
+	left: 2vw;
+	top: 145vh;
+}
+#table{
+	height: 20%;
+	position: absolute;
+	left: 90vw;
+	top: 4vh;
+}
+#quilted-dress{
+	height: 20%;
+	position: absolute;
+	left: 100vw;
+	top: 135vh;
+}
+#charm-ring{
+	height: 20%;
+	position: fixed;
+	left: 80vw;
+	top: 60vh;
+}
+#sun-ring{
+	height: 20%;
+	position: absolute;
+	left: 130vw;
+	top: 350vh;
+}
+#fork{
+	height: 30%;
+	position: absolute;
+	left: 50vw;
+	top: 180vh;
+}
+#crystal-necklace{
+	height: 20%;
+	position: absolute;
+	left: 100vw;
+	top: 210vh;
+}
+#GroupT{
+	height: 30%;
+	position: absolute;
+	left: 190vw;
+	top: 190vh;
+}
+#flower-earrings{
+	height: 20%;
+	position: absolute;
+	left: 65vw;
+	top: 280vh;
+}
+#charm-necklace{
+	height: 30%;
+	position: absolute;
+	left: 150vw;
+	top: 150vh;
+}
+#spiralT{
+	height: 20%;
+	position: absolute;
+	left: 280vw;
+	top: 350vh;
+}
+#choker{
+	height: 20%;
+	position: absolute;
+	left: 210vw;
+	top: 300vh;
+}
+.button{
+	font-family: 'Passion One', cursive; 
+	font-size: xx-large;
+	font-weight: 400;
+	position: fixed;
+	top: 0;
+}
