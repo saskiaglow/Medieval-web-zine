@@ -1,0 +1,44 @@
+body{
+	background-color: #fff1d5;
+}
+
+p{
+  display: inline-block;
+  position: fixed;
+  top:22em;
+  left: -16em;
+  rotate: -90deg;
+  font-family: 'Xanh Mono', monospace;
+  margin-left: .5em;
+  z-index: 1000;
+}
+
+a{
+	color:black;
+	text-decoration:none;
+	 font-size: 20px;
+}
+a:visited{
+	color:black;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration: none;
+	color: blue;
+}
+#scroll{
+	scale: 120%;
+	position: fixed;
+	left: 50em;
+	top: 16em;
+}
+#prince-regarding{
+	scale: 30%;
+	position: relative;
+	top: -40em;
+	right:-25em;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	z-index: -100;
+}

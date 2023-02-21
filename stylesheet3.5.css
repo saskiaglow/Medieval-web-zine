@@ -1,0 +1,74 @@
+html, body {
+  height: 100%;
+/*  overflow: hidden;*/
+  background-color: #fff1d5;
+}
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar,
+.main {
+  flex: 1 auto;
+  padding: 2rem 3rem;
+  overflow-y: scroll;
+  font-family: Adobe Jenson Pro, serif;
+  font-size: 20px;
+  line-height: 25px;
+  top: 5em;
+}
+a{
+  color:black;
+  text-decoration: none;
+  font-family: 'Xanh Mono', monospace;
+}
+a:visited{
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  color: blue;
+}
+.sidebar{
+  scale: 80%;
+  padding: 0;
+}
+#title{
+  font-family: Amador, cursive;
+  font-size: 90px;
+  text-align: center;
+  display: inline-block;
+  position: fixed;
+  top: 5em;
+  max-width: 90%;
+  z-index: 999;
+}
+h2{
+  display: inline-block;
+  position: fixed;
+  top:17em;
+  left: -14em;
+  rotate: -90deg;
+  font-family: 'Xanh Mono', monospace;
+  font-size: 20px;
+  margin-left: .5em;
+  z-index: 1000;
+}
+.buttons{
+  position: fixed;
+  top: 6em;
+  right: 22em;
+  font-size: 20px;
+  padding: 2%;
+  align-content: space-around;
+  z-index: 1000;
+}
+#scroll{
+   position: fixed;
+  scale: 80%;
+  rotate: 90deg;
+  top: 1em;
+  right: 30em;
+  z-index: 100;
+}

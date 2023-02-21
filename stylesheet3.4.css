@@ -1,11 +1,13 @@
 h1{
-	font-family: 'UnifrakturMaguntia', cursive;
-	font-size: 90px;
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: 90px;
+  color: darkred;
 }
 h2{
-	font-family: 'Passion One', cursive;
-	font-weight: 400;
-	font-size: 70px;
+  font-family: 'Passion One', cursive;
+  font-weight: 400;
+  font-size: 70px;
+  color: darkred;
 }
 .all{
 	display: flex;

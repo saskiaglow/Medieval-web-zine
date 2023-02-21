@@ -1,0 +1,369 @@
+body{
+	background-color: #fff1d5;
+}
+#title{
+  font-family: Amador, cursive;
+  font-size: 90px;
+  text-align: center;
+  display: inline-block;
+  position: fixed;
+  top: 5em;
+}
+h2{
+  display: inline-block;
+  position: fixed;
+  top:19em;
+  left: -15em;
+  rotate: -90deg;
+  font-family: 'Xanh Mono', monospace;
+  font-size: 20px;
+  margin-left: .5em;
+  z-index: 999;
+}
+h3{
+  display: inline-block;
+  position: fixed;
+  top:18em;
+  left: -13em;
+  rotate: -90deg;
+  font-family: 'Xanh Mono', monospace;
+  font-size: 20px;
+  margin-left: .5em;
+  z-index: 1000;
+}
+.container{
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	position: relative;
+	justify-content: center;
+}
+.item{
+	font-family: Adobe Jenson Pro, serif;
+	font-size: 18px;
+	line-height: 25px;
+	padding: 2%;
+	max-width: 300px;
+	text-align: justify;
+	text-justify: auto;
+}
+a{
+	color: black;
+	text-decoration: none;
+	font-family: 'Xanh Mono', monospace;
+}
+a:visited{
+	color: black;
+	text-decoration: none;
+}
+a:hover{
+	color: blue;
+}
+#burial-site:hover::after{
+	content: url(images/necklace-comparison.png);
+	display: block;
+	position: absolute;
+	scale: 20%;
+	left: -28vw;
+	top: -10vh;
+}
+#reference-earrings:hover::after{
+	content: url(images/FashionReferenceEarrings.png);
+	display: block;
+	position: absolute;
+	scale: 35%;
+	top: 18vh;
+	right: -4vw;
+}
+#mirror:hover::after{
+	content: url(images/ultrafragola-mirror.jpg);
+	display: block;
+	position: absolute;
+	top: -2vh;
+	right: -35vw;
+	scale: 25%;
+}
+#quilted-dress:hover::after{
+	content: url(images/FashionQuiltedDress.png);
+	display: block;
+	position: absolute;
+	top: 220vh;
+	left: -12vw;
+	scale: 25%;
+}
+#corset:hover::after{
+	content: url(images/FashionCorset.png);
+	display: block;
+	position: absolute;
+	top: 240vh;
+	left: -14vw;
+	scale: 20%;
+}
+#rope-ring:hover::after{
+	content: url(images/FashionRopeRing.png);
+	display: block;
+	position: absolute;
+	top: 5px;
+	scale: 25%;
+}
+#choker:hover::after{
+	content: url(images/FashionCrystalNecklace.png);
+	display: block;
+	position: absolute;
+	top: 260vh;
+	right: -10vw;
+	scale: 30%;
+}
+#charm-necklace:hover::after{
+	content: url(images/FashionCharmNecklace.png);
+	display: block;
+	position: absolute;
+	top: 250vh;
+	right: -24vw;
+	scale: 25%;
+}
+#candle-holder:hover::after{
+	content: url(images/FashionCandleHolder.png);
+	display: block;
+	position: absolute;
+	top: 9vh;
+	right: -13vw;
+	scale: 30%;
+}
+#fork:hover::after{
+	content: url(images/FashionFork.png);
+	display: block;
+	position: absolute;
+	top: 120vh;
+	right: -15vw;
+	scale: 40%;
+}
+#table{
+	position: fixed;
+	scale: 20%;
+	top: -60vh;
+	left: -12vw;
+}
+@keyframes candle-fade{
+	from{
+		opacity:100;
+	}
+	to{
+		opacity: 0;
+	}
+}
+#table{
+	animation-name:candle-fade;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+#cross-necklace{
+	position:fixed;
+	scale:25%;
+	top: 16vh;
+	right: -5vw;
+}
+@keyframes necklace-fade{
+	from{
+		opacity:100;
+	}
+	to{
+		opacity: 0;
+	}
+}
+#cross-necklace{
+	animation-name:necklace-fade;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 2s;
+}
+#hood{
+	position:absolute;
+	scale: 15%;
+	top: 5px;
+	left: -3vw;
+}
+@keyframes hood-fade{
+	from{
+		opacity:100;
+	}
+	to{
+		opacity: 0;
+	}
+}
+#hood{
+	animation-name:hood-fade;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 2.5s;
+}
+#flower-earrings{
+	position:absolute;
+	scale:15%;
+	top: 150px;
+	left: -23vw;
+	animation-name:flower-fade;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 0.5s;
+}
+@keyframes flower-fade{
+	from{
+		opacity:100;
+	}
+	to{
+		opacity: 0;
+	}
+}
+#napkins{
+	position:absolute;
+	scale:20%;
+	top: 48vh;
+	right: -6vw;
+	animation-name:napkin-fade;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 0.5s;
+}
+@keyframes napkin-fade{
+	from{
+		opacity:100;
+	}
+	to{
+		opacity: 0;
+	}
+}
+#charm-ring{
+	position:absolute;
+	scale: 10%;
+	top: 200vh;
+	right: -25vw;
+	animation-name:charm-fade;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 0.5s;
+}
+@keyframes charm-fade{
+	from{
+		opacity:100;
+	}
+	to{
+		opacity: 0;
+	}
+}
+#sun-ring{
+	position:absolute;
+	scale:20%;
+	top: 100px;
+	left: -7vw;
+	animation-name:sun-fade;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 1s;
+}
+@keyframes sun-fade{
+	from{
+		opacity:100;
+	}
+	to{
+		opacity: 0;
+	}
+}
+#GroupT{
+	position:absolute;
+	scale:20%;
+	top: 80vh;
+	left: 600px;
+	animation-name:T-fade;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 0.2s;
+}
+@keyframes T-fade{
+	from{
+		opacity:100;
+	}
+	to{
+		opacity: 0;
+	}
+}
+
+@keyframes cherubs-fade{
+	from{
+		opacity:100;
+	}
+	to{
+		opacity: 0;
+	}
+}
+#cherub-earrings{
+	position: absolute;
+	scale: 30%;
+	right: 65vw;
+	top: 200vh;
+	animation-name:cherubs-fade;
+	animation-duration: 2.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 0s;
+}
+@keyframes gem-fade{
+	from{
+		opacity:100;
+	}
+	to{
+		opacity: 0;
+	}
+}
+#BigRing{
+	position: absolute;
+	scale: 30%;
+	right: -4vw;
+	top: 235vh;
+	animation-name:gem-fade;
+	animation-duration: .75s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: 0s;
+}
+@keyframes bauble-crosses-fade{
+	from{
+		opacity:100;
+	}
+	to{
+		opacity: 0;
+	}
+}
+#cross-earrings{
+	position: absolute;
+	scale: 40%;
+	right: 17vw;
+	top: 320vh;
+	animation-name:bauble-crosses-fade;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-delay: .5s;
+}
+.button{
+	position: fixed;
+	top: 6em;
+	right: 1.5em;
+	font-size: 20px;
+}
+#scroll{
+	scale: 80%;
+	rotate: 90deg;
+	position: fixed;
+	top: 1em;
+	left: 65em;
+	z-index: -100;
+}
