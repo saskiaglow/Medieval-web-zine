@@ -5,20 +5,19 @@ body{
   font-family: Amador, cursive;
   font-size: 90px;
   text-align: center;
-  display: inline-block;
   position: fixed;
   top: 5em;
 }
 h2{
   display: inline-block;
   position: fixed;
-  top:19em;
-  left: -15em;
+  top: 19em;
+  left: -13em;
   rotate: -90deg;
   font-family: 'Xanh Mono', monospace;
   font-size: 20px;
-  margin-left: .5em;
-  z-index: 999;
+  margin-left: -1.4em;
+  z-index: 1000;
 }
 h3{
   display: inline-block;
