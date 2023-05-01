@@ -19,18 +19,6 @@ body{
 	font-family: Amador, cursive;
 	font-size: 36px;
 }
-a{
-	color: black;
-	text-decoration:none;
-	font-family: Adobe Jenson Pro, serif;
-	font-size: 20px;
-}
-a:hover{
-	color: blue;
-	text-decoration:none;
-	font-family: Adobe Jenson Pro, serif;
-	font-size: 40px;
-}
 a#real-link{
 	color: black;
 	text-decoration:none;
@@ -41,13 +29,11 @@ a#real-link:visited{
 	color: black;
 	text-decoration:none;
 	font-family: Adobe Jenson Pro, serif;
-	font-size: 20px;
 }
 a#real-link:hover{
 	color: blue;
 	text-decoration:none;
 	font-family: Adobe Jenson Pro, serif;
-	font-size: 40px;
 }
 #prince-regarding{
 	width: 10vw;
