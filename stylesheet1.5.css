@@ -2,11 +2,12 @@ body{
 	background-color: #fff1d5;
 }
 #title{
-  font-family: Amador, cursive;
+  font-family: 'UnifrakturMaguntia', cursive;
   font-size: 90px;
+  line-height: 88px;
   text-align: center;
   position: fixed;
-  top: 5em;
+  top: 4.3em;
 }
 h2{
   display: inline-block;

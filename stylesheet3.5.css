@@ -35,8 +35,9 @@ a:hover{
   padding: 0;
 }
 #title{
-  font-family: Amador, cursive;
+  font-family: 'UnifrakturMaguntia', cursive;
   font-size: 90px;
+  line-height: 87px;
   text-align: center;
   display: inline-block;
   position: fixed;

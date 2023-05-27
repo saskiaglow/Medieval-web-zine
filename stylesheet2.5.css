@@ -9,13 +9,13 @@ body{
   margin: 0;
 }
 #title{
-  font-family: Amador, cursive;
+  font-family: 'UnifrakturMaguntia', cursive;
   font-size: 90px;
   text-align: center;
   display: inline-block;
   position: fixed;
-  top: 4em;
-  max-width: 80%;
+  top: 4.3em;
+  line-height: 85px;
 }
 h2{
   display: inline-block;
@@ -29,7 +29,7 @@ h2{
   z-index: 1000;
 }
 h3{
-  font-family: Amador, cursive;
+  font-family: 'UnifrakturMaguntia', cursive;
   font-size: 36px;
 }
 a{
